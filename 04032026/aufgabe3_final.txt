@@ -1,0 +1,20 @@
+Script started on 2026-03-04 21:40:35+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="81" LINES="27"]
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ mkdir -p praktikum/gheKgeheim
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ touch praktikum/paKsKgeheim/passworKt.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ ls -ld praktikum/geheim/
+drwxrwxr-x 2 gikaze gikaze 4096 Mar  4 21:41 0m01;34mpraktikum/geheim/0m
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ chmod 700 paKraktikum/geheim/
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ ls -ld paKraktikum/Kgeheim/
+drwx------ 2 gikaze gikaze 4096 Mar  4 21:41 0m01;34mpraktikum/geheim/0m
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ chmoKd g+r praktikum/geheim/passwort.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ ls -l praktikum/geheim/passwort.txt
+-rw-rw-r-- 1 gikaze gikaze 0 Mar  4 21:41 praktikum/geheim/passwort.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ KsudKsudo chown romy:sudo praktikum/geheim/passwort.txt
+[sudo] password for gikaze:
+32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$26Pls$-lupraktikum/geheim/passwort.txtgeheim/passwort.txt A
+KACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-rw-rw-r-- 1 romy sudo 0 Mar  4 21:41 praktikum/geheim/passwort.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ chmod -x praktikum/geheimKKchmodp-Kexitum/geheim/passwort.txt
+exit4l
+
+Script done on 2026-03-04 21:48:15+01:00 [COMMAND_EXIT_CODE="0"]
