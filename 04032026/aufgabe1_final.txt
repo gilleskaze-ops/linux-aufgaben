@@ -1,0 +1,296 @@
+Script started on 2026-03-04 21:00:53+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="81" LINES="27"]
+$SHELL32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ pwKecho "Ich verwende dKaKktuell diesen Shell:"
+Ich0verwende aktuell diesen Shell: /bin/bash
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ pwKd
+/home/gikaze/DCI/Aufgaben/04032026
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ ce /etKd /etc
+?2004h32mgikaze@gikazem:34m/etcm$ ls -d hosts
+hostsl
+?2004h32mgikaze@gikazem:34m/etcm$ ls -l
+totall1168
+-rw-r--r--  1 root                 root                  3444 Jul  5  2023 adduser.conf
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 0m01;34malsa0m
+drwxr-xr-x  2 root                 root                  4096 Mar  2 11:22 01;34malternatives0m
+-rw-r--r--  1 root                 root                   335 Apr  8  2024 anacrontab
+-rw-r--r--  1 root                 root                   433 Apr  8  2024 apg.conf
+drwxr-xr-x  5 root                 root                  4096 Aug  5  2025 01;34mapm0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mapparmor0m
+drwxr-xr-x  9 root                 root                  4096 Jan 20 13:17 01;34mapparmor.d0m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mapport0m
+drwxr-xr-x  9 root                 root                  4096 Jan 20 12:58 01;34mapt0m
+drwxr-xr-x  3 root                 root                  4096 Jan 20 13:17 01;34mavahi0m
+-rw-r--r--  1 root                 root                  2319 Mar 31  2024 bash.bashrc
+-rw-r--r--  1 root                 root                    45 Jan 24  2020 bash_completion
+drwxr-xr-x  2 root                 root                  4096 Jan 20 14:55 01;34mbash_completion.d0m
+-rw-r--r--  1 root                 root                   367 Aug  2  2022 bindresvport.blacklist
+drwxr-xr-x  2 root                 root                  4096 Apr 19  2024 01;34mbinfmt.d0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mbluetooth0m
+-rw-r-----  1 root                 root                    33 Aug  5  2025 brlapi.key
+drwxr-xr-x  7 root                 root                  4096 Aug  5  2025 01;34mbrltty0m
+-rw-r--r--  1 root                 root                 30571 Mar 31  2024 brltty.conf
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mca-certificates0m
+-rw-r--r--  1 root                 root                  6288 Aug  5  2025 ca-certificates.conf
+drwxr-s---  2 root                 dip                   4096 Aug  5  2025 01;34mchatscripts0m
+drwxr-xr-x  5 root                 root                  4096 Jan 20 13:29 01;34mcloud0m
+drwxr-xr-x  2 colord               colord                4096 Jan 20 13:27 01;34mcolord0m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:05 01;34mconsole-setup0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mcracklib0m
+drwx------  2 root                 root                  4096 Apr 19  2024 01;34mcredstore0m
+drwx------  2 root                 root                  4096 Apr 19  2024 01;34mcredstore.encrypted0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mcron.d0m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:16 01;34mcron.daily0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mcron.hourly0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mcron.monthly0m
+-rw-r--r--  1 root                 root                  1136 Mar 31  2024 crontab
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mcron.weekly0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mcron.yearly0m
+drwxr-xr-x  5 root                 lp                    4096 Mar  4 19:26 01;34mcups0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mcupshelpers0m
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mdbus-10m
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mdconf0m
+-rw-r--r--  1 root                 root                  2967 Apr 12  2024 debconf.conf
+-rw-r--r--  1 root                 root                    11 Apr 22  2024 debian_version
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mdebuginfod0m
+drwxr-xr-x  3 root                 root                  4096 Mar  4 07:27 01;34mdefault0m
+-rw-r--r--  1 root                 root                  1706 Jul  5  2023 deluser.conf
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mdepmod.d0m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mdhcp0m
+-rw-r--r--  1 root                 root                  1429 Mar 31  2024 dhcpcd.conf
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:11 01;34mdictionaries-common0m
+drwxr-xr-x  3 root                 root                  4096 Jan 20 13:41 01;34mdkms0m
+drwxr-xr-x  4 root                 root                  4096 Jan 20 13:41 01;34mdpkg0m
+-rw-r--r--  1 root                 root                   685 Apr  8  2024 e2scrub.conf
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34memacs0m
+-rw-r--r--  1 root                 root                   106 Aug  5  2025 environment
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34menvironment.d0m
+-rw-r--r--  1 root                 root                  1853 Oct 18  2022 ethertypes
+drwxr-xr-x  5 root                 root                  4096 Aug  5  2025 01;34mfonts0m
+-rw-r--r--  1 root                 root                    20 Apr  4  2024 fprintd.conf
+-rw-r--r--  1 root                 root                   473 Jan 20 13:10 fstab
+-rw-r--r--  1 root                 root                   694 Apr  8  2024 fuse.conf
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mfwupd0m
+-rw-r--r--  1 root                 root                  2584 Jan 31  2024 gai.conf
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mgdb0m
+drwxr-xr-x  8 root                 root                  4096 Aug  5  2025 01;34mgdm30m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mgeoclue0m
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mghostscript0m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mglvnd0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mgnome0m
+drwxr-xr-x  2 gnome-remote-desktop gnome-remote-desktop  4096 Aug  5  2025 01;34mgnome-remote-desktop0m
+drwxr-xr-x  2 root                 root                  4096 Mar  1 09:00 01;34mgnutls0m
+-rw-r--r--  1 root                 root                  3986 Dec  3 16:01 gprofng.rc
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mgroff0m
+-rw-r--r--  1 root                 root                  1160 Mar  4 13:36 group
+-rw-r--r--  1 root                 root                  1155 Mar  4 13:33 group-
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mgrub.d0m
+-rw-r-----  1 root                 shadow                 977 Mar  4 13:36 gshadow
+-rw-r-----  1 root                 shadow                 972 Mar  4 13:33 gshadow-
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mgss0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mgtk-2.00m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mgtk-3.00m
+-rw-r--r--  1 root                 root                  4436 Oct  6  2022 hdparm.conf
+-rw-r--r--  1 root                 root                    92 Apr 22  2024 host.conf
+-rw-r--r--  1 root                 root                     7 Jan 20 13:12 hostname
+-rw-r--r--  1 root                 root                   221 Jan 20 13:12 hosts
+-rw-r--r--  1 root                 root                   411 Aug  5  2025 hosts.allow
+-rw-r--r--  1 root                 root                   711 Aug  5  2025 hosts.deny
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mhp0m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mifplugd0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34minit0m
+drwxr-xr-x  2 root                 root                  4096 Jan 21 01:36 01;34minit.d0m
+drwxr-xr-x  5 root                 root                  4096 Aug  5  2025 01;34minitramfs-tools0m
+-rw-r--r--  1 root                 root                  1875 Mar 31  2024 inputrc
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34minsserv.conf.d0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mipp-usb0m
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34miproute20m
+-rw-r--r--  1 root                 root                    26 Aug  1  2025 issue
+-rw-r--r--  1 root                 root                    19 Aug  1  2025 issue.net
+drwxr-xr-x  8 root                 root                  4096 Jan 20 13:41 01;34mkernel0m
+-rw-r--r--  1 root                 root                  1308 Mar 31  2024 kerneloops.conf
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mkrb5.conf.d0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mldap0m
+-rw-r--r--  1 root                 root                 65039 Mar  4 11:48 ld.so.cache
+-rw-r--r--  1 root                 root                    34 Aug  2  2022 ld.so.conf
+drwxr-xr-x  2 root                 root                  4096 Mar  1 08:57 01;34mld.so.conf.d0m
+-rw-r--r--  1 root                 root                   267 Apr 22  2024 legal
+-rw-r--r--  1 root                 root                    27 Apr  8  2024 libao.conf
+-rw-r--r--  1 root                 root                   191 Mar 31  2024 libaudit.conf
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mlibblockdev0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mlibibverbs.d0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mlibnl-30m
+drwxr-xr-x  2 root                 root                  4096 Apr  8  2024 01;34mlibpaper.d0m
+-rw-r--r--  1 root                 root                  2996 Mar 30  2024 locale.alias
+-rw-r--r--  1 root                 root                    17 Jan 20 13:27 locale.conf
+-rw-r--r--  1 root                 root                  9563 Mar  1 08:57 locale.gen
+lrwxrwxrwx  1 root                 root                    33 Jan 20 13:27 01;36mlocaltime0m -> /usr/share/zoneinfo/Europe/Berlin
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mlogcheck0m
+-rw-r--r--  1 root                 root                 12345 Feb 22  2024 login.defs
+-rw-r--r--  1 root                 root                   586 Apr  8  2024 logrotate.conf
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:17 01;34mlogrotate.d0m
+-rw-r--r--  1 root                 root                   104 Aug  1  2025 lsb-release
+-r--r--r--  1 root                 root                    33 Jan 20 13:05 machine-id
+-rw-r--r--  1 root                 root                   111 Mar 31  2024 magic
+-rw-r--r--  1 root                 root                   111 Mar 31  2024 magic.mime
+-rw-r--r--  1 root                 root                  5230 Apr  8  2024 manpath.config
+-rw-r--r--  1 root                 root                  4502 May 13  2022 merecat.conf
+-rw-r--r--  1 root                 root                 75113 Jul 12  2023 mime.types
+-rw-r--r--  1 root                 root                   744 Apr  8  2024 mke2fs.conf
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mModemManager0m
+drwxr-xr-x  2 root                 root                  4096 Mar  4 07:27 01;34mmodprobe.d0m
+-rw-r--r--  1 root                 root                   212 Aug  5  2025 modules
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:17 01;34mmodules-load.d0m
+lrwxrwxrwx  1 root                 root                    19 Aug  5  2025 01;36mmtab0m -> ../proc/self/mounts
+-rw-r--r--  1 root                 root                 11424 May 23  2023 nanorc
+-rw-r--r--  1 root                 root                   767 Mar 31  2024 netconfig
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:27 01;34mnetplan0m
+drwxr-xr-x  6 root                 root                  4096 Aug  5  2025 01;34mnetwork0m
+drwxr-xr-x  8 root                 root                  4096 Aug  5  2025 01;34mnetworkd-dispatcher0m
+drwxr-xr-x  8 root                 root                  4096 Aug  5  2025 01;34mNetworkManager0m
+-rw-r--r--  1 root                 root                    91 Apr 22  2024 networks
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mnewt0m
+-rwxr-xr-x  1 root                 root                   243 Oct 19  2023 01;32mnftables.conf0m
+-rw-r--r--  1 root                 root                   594 Aug  5  2025 nsswitch.conf
+drwxr-xr-x  4 root                 root                  4096 Jan 20 13:16 01;34mopenvpn0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mopt0m
+lrwxrwxrwx  1 root                 root                    21 Aug  1  2025 01;36mos-release0m -> ../usr/lib/os-release
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mPackageKit0m
+-rw-r--r--  1 root                 root                   552 Oct 13  2022 pam.conf
+drwxr-xr-x  2 root                 root                  4096 Jan 21 01:36 01;34mpam.d0m
+-rw-r--r--  1 root                 root                     3 Aug  5  2025 papersize
+-rw-r--r--  1 root                 root                  2994 Mar  4 13:33 passwd
+-rw-r--r--  1 root                 root                  2955 Feb 27 14:21 passwd-
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mpcmcia0m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mperl0m
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mpki0m
+drwxr-xr-x  2 root                 root                  4096 Feb 25  2025 01;34mplymouth0m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mpm0m
+-rw-r--r--  1 root                 root                  7649 Aug  5  2025 pnm2ppa.conf
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mpolkit-10m
+drwxr-xr-x  8 root                 dip                   4096 Aug  5  2025 01;34mppp0m
+lrwxrwxrwx  1 root                 root                    18 Jan 20 13:17 01;36mprintcap0m -> /run/cups/printcap
+-rw-r--r--  1 root                 root                   582 Apr 22  2024 profile
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mprofile.d0m
+-rw-r--r--  1 root                 root                  3144 Oct 18  2022 protocols
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mpulse0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mpython30m
+drwxr-xr-x  2 root                 root                  4096 Mar  1 08:58 01;34mpython3.120m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:12 01;34mrc0.d0m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:12 01;34mrc1.d0m
+drwxr-xr-x  2 root                 root                  4096 Jan 21 01:36 01;34mrc2.d0m
+drwxr-xr-x  2 root                 root                  4096 Jan 21 01:36 01;34mrc3.d0m
+drwxr-xr-x  2 root                 root                  4096 Jan 21 01:36 01;34mrc4.d0m
+drwxr-xr-x  2 root                 root                  4096 Jan 21 01:36 01;34mrc5.d0m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:12 01;34mrc6.d0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mrcS.d0m
+lrwxrwxrwx  1 root                 root                    39 Aug  5  2025 01;36mresolv.conf0m -> ../run/systemd/resolve/stub-resolv.conf
+lrwxrwxrwx  1 root                 root                    13 Apr  8  2024 01;36mrmt0m -> 01;32m/usr/sbin/rmt0m
+-rw-r--r--  1 root                 root                   911 Oct 18  2022 rpc
+-rw-r--r--  1 root                 root                  1213 Mar 22  2024 rsyslog.conf
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mrsyslog.d0m
+-rw-r--r--  1 root                 root                  5772 Jan  6  2024 rygel.conf
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34msane.d0m
+drwxr-xr-x  4 root                 root                  4096 Jan 20 13:16 01;34msecurity0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mselinux0m
+-rw-r--r--  1 root                 root                 10593 Mar 31  2024 sensors3.conf
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34msensors.d0m
+-rw-r--r--  1 root                 root                 12813 Mar 27  2021 services
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34msgml0m
+-rw-r-----  1 root                 shadow                1478 Mar  4 13:35 shadow
+-rw-r-----  1 root                 shadow                1380 Jan 21 01:36 shadow-
+-rw-r--r--  1 root                 root                   118 Aug  5  2025 shells
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mskel0m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:16 01;34msnmp0m
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mspeech-dispatcher0m
+drwxr-xr-x  4 root                 root                  4096 Jan 21 01:36 01;34mssh0m
+drwxr-xr-x  4 root                 root                  4096 Mar  1 08:58 01;34mssl0m
+drwx--x--x  3 root                 root                  4096 Aug  5  2025 01;34msssd0m
+-rw-r--r--  1 root                 root                    38 Mar  4 13:33 subgid
+-rw-r--r--  1 root                 root                    20 Jan 20 13:27 subgid-
+-rw-r--r--  1 root                 root                    38 Mar  4 13:33 subuid
+-rw-r--r--  1 root                 root                    20 Jan 20 13:27 subuid-
+-rw-r--r--  1 root                 root                  4343 Apr  8  2024 sudo.conf
+-r--r-----  1 root                 root                  1800 Jan 29  2024 sudoers
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34msudoers.d0m
+-rw-r--r--  1 root                 root                  9804 Apr  8  2024 sudo_logsrvd.conf
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34msupercat0m
+-rw-r--r--  1 root                 root                  2209 Mar 24  2024 sysctl.conf
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34msysctl.d0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34msysstat0m
+drwxr-xr-x  6 root                 root                  4096 Aug  5  2025 01;34msystemd0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mterminfo0m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:09 01;34mthermald0m
+-rw-r--r--  1 root                 root                   319 May 13  2022 throttle.conf
+-rw-r--r--  1 root                 root                    14 Jan 20 13:27 timezone
+drwxr-xr-x  2 root                 root                  4096 Apr 19  2024 01;34mtmpfiles.d0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mubuntu-advantage0m
+-rw-r--r--  1 root                 root                  1260 Jan 27  2023 ucf.conf
+drwxr-xr-x  4 root                 root                  4096 Aug  5  2025 01;34mudev0m
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:16 01;34mudisks20m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mufw0m
+drwxr-xr-x  3 root                 root                  4096 Aug  5  2025 01;34mupdate-manager0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mupdate-motd.d0m
+drwxr-xr-x  2 root                 root                  4096 Apr  2  2025 01;34mupdate-notifier0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mUPower0m
+-rw-r--r--  1 root                 root                  1523 Apr  8  2024 usb_modeswitch.conf
+drwxr-xr-x  2 root                 root                  4096 Dec 16  2023 01;34musb_modeswitch.d0m
+lrwxrwxrwx  1 root                 root                    16 Aug  5  2025 01;36mvconsole.conf0m -> default/keyboard
+-rw-r--r--  1 root                 root                    51 Mar  7  2022 vdpau_wrapper.cfg
+drwxr-xr-x  2 root                 root                  4096 Jan 20 13:17 01;34mvim0m
+drwxr-xr-x  4 root                 root                  4096 Jan 20 13:12 01;34mvmware-tools0m
+lrwxrwxrwx  1 root                 root                    23 Feb 26  2024 01;36mvtrgb0m -> /etc/alternatives/vtrgb
+drwxr-xr-x  5 root                 root                  4096 Aug  5  2025 01;34mvulkan0m
+-rw-r--r--  1 root                 root                  4942 Jun 19  2024 wgetrc
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mwpa_supplicant0m
+drwxr-xr-x 12 root                 root                  4096 Aug  5  2025 01;34mX110m
+-rw-r--r--  1 root                 root                   681 Apr  8  2024 xattr.conf
+drwxr-xr-x  6 root                 root                  4096 Aug  5  2025 01;34mxdg0m
+drwxr-xr-x  2 root                 root                  4096 Aug  5  2025 01;34mxml0m
+-rw-r--r--  1 root                 root                   460 Jan 20  2023 zsh_command_not_found
+?2004h32mgikaze@gikazem:34m/etcm$ cd
+?2004h32mgikaze@gikazem:34m~m$ cd DCI/aufgKAufgaben/04032026/
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ cd -
+/home/gikaze
+?2004h32mgikaze@gikazem:34m~m$ cd -
+/home/gikaze/DCI/Aufgaben/04032026
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ clKmkdir -p KprKaktikum/test
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026m$ cd praktikum/test/
+?versteckt.txte@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ tKtouch deKatei1.txt datei2.txt
+.txt4h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ mv versteckt.txt .versteckt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ ls -la
+totall8
+drwxrwxr-x 2 gikaze gikaze 4096 Mar  4 21:06 0m01;34m.0m
+drwxrwxr-x 3 gikaze gikaze 4096 Mar  4 21:04 01;34m..0m
+-rw-rw-r-- 1 gikaze gikaze    0 Mar  4 21:05 datei1.txt
+-rw-rw-r-- 1 gikaze gikaze    0 Mar  4 21:05 datei2.txt
+-rw-rw-r-- 1 gikaze gikaze    0 Mar  4 21:05 .versteckt.txt
+datei1.txtikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ echo "LiniKuKx macht PasKSpaKss" >
+KACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKBesonders ColKool ist we
+,AwennCmanCmitCdemCTerminalCarbeitet"C>>Cdatei1.txtCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCK es
+.txt4h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ cp Kdatei1.txt datei1K_Kbackup
+"2|0sortm|iwcz-lgikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ ls /usr/bnKin | grep "network
+42004l
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ ls /usr/bin | grep "network" | sort | wc -K
+mbim-01;31mKnetworkmK
+01;31mKnetworkmKctl
+01;31mKnetworkmKd-dispatcher
+qmi-01;31mKnetworkmK
+KACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCK1@-1@nC1@1@5CCCCCCCCCCCCCC ~DC
+KACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCK/D
+DCI/       Desktop/   Documents/ Downloads/
+32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ tail -n 5 /etc/passwd > ~/D
+DCI/       Desktop/   Documents/ Downloads/
+CI/Aufgaben/kazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ tail -n 5 /etc/passwd > ~/D
+04032026/ .git/
+32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ tail -n 5 /etc/passwd > ~/DCI/Aufgaben/04032026/praktikum/test/benutzeKutzer.txKikum/benutzer.txKenKtest/beKnKutzer.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ lKls
+benutzer.txt  datei1_backup.txt  datei1.txt  datei2.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ rm dateiKK2.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ ls -l
+totall12
+-rw-rw-r-- 1 gikaze gikaze 268 Mar  4 21:13 benutzer.txt
+-rw-rw-r-- 1 gikaze gikaze  76 Mar  4 21:08 datei1_backup.txt
+-rw-rw-r-- 1 gikaze gikaze  76 Mar  4 21:08 datei1.txt
+?2004h32mgikaze@gikazem:34m~/DCI/Aufgaben/04032026/praktikum/testm$ exit
+exit4l
+
+Script done on 2026-03-04 21:15:55+01:00 [COMMAND_EXIT_CODE="0"]

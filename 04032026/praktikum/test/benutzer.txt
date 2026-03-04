@@ -1,0 +1,5 @@
+nm-openvpn:x:121:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+gikaze:x:1000:1000:Gikaze:/home/gikaze:/bin/bash
+vboxadd:x:997:1::/var/run/vboxadd:/bin/false
+sshd:x:122:65534::/run/sshd:/usr/sbin/nologin
+romy:x:1001:1001::/home/romy:/bin/bash
