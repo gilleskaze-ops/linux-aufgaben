@@ -1,0 +1,20 @@
+Script started on 2026-03-04 21:40:35+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="81" LINES="27"]
+[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ mkdir -p praktikum/ghei[K[K[K[Kgeheim
+[?2004l[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ touch praktikum/pas[Kss[K[K[K[Kgeheim/password[Kt.txt
+[?2004l[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ ls -ld praktikum/geheim/
+[?2004ldrwxrwxr-x 2 gikaze gikaze 4096 Mar  4 21:41 [0m[01;34mpraktikum/geheim/[0m
+[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ chmod 700 par[K[Kraktikum/geheim/
+[?2004l[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ ls -ld par[K[Kraktikum//[Kgeheim/
+[?2004ldrwx------ 2 gikaze gikaze 4096 Mar  4 21:41 [0m[01;34mpraktikum/geheim/[0m
+[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ chmof[Kd g+r praktikum/geheim/passwort.txt 
+[?2004l[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ ls -l praktikum/geheim/passwort.txt 
+[?2004l-rw-rw-r-- 1 gikaze gikaze 0 Mar  4 21:41 praktikum/geheim/passwort.txt
+[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ d[Ksudo[K[K[K[Ksudo chown romy:sudo praktikum/geheim/passwort.txt 
+[?2004l[sudo] password for gikaze: 
+[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ sudo chown romy:sudo praktikum/geheim/passwort.txt [A[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ [6Pls -l praktikum/geheim/passwort.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rw-rw-r-- 1 romy sudo 0 Mar  4 21:41 praktikum/geheim/passwort.txt
+[?2004h[32mgikaze@gikaze[m:[34m~/DCI/Aufgaben/04032026[m$ chmod -x praktikum/geheim/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -l praktikum/geheim/passwort.txt [Kchmod -x[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2026-03-04 21:48:15+01:00 [COMMAND_EXIT_CODE="0"]
