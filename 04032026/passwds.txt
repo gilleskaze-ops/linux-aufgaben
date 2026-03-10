@@ -1,0 +1,10 @@
+gnome-initial-setup:!:20305::::::
+gdm:!:20305::::::
+nm-openvpn:!:20305::::::
+gikaze:$6$D2YUmCHq4UIfdXP7$Y..KGFHBPxt5uZ4Y3b3AUIqapq32B18iZqNFldisg90.xFBqwHubRe2Q38EHXYM7O0fY5rrV5QHTUVjUz/TiD0:20473:0:99999:7:::
+vboxadd:!:20473::::::
+sshd:!:20474::::::
+romy:$y$j9T$f2ig257Z0aMIKBYBSXcYi0$LDX9ilT6linjZyX57sQlBiSqaVpvl9ILSzabiXYXrb9:20516:0:99999:7:::
+alice:$y$j9T$lkQypm8c20n9P2cxJlcEx1$wl4r3CQmi9IOvaozPz0YPPLOSe3DeHF6MbIKiWqQ6b9:20522:0:99999:7:::
+bob:$y$j9T$r8ReV/fXUzAQGN.nvHguj/$ixKOn4D45/z93IUplZrUh3tOYnFQRHWcvohN/KIlCt4:20522:0:99999:7:::
+charlie:$y$j9T$7Y5QgDILqExur/Cx6OvMb/$dJ6zPzRb0FqQBo8S6NxRjJtrYKTJSBifEDrcN6Adt38:20522:0:99999:7:::
