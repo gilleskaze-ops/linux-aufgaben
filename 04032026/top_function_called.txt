@@ -1,0 +1,4 @@
+      7 POST/login.html
+      7 GET/index.html
+      6 GET/details.html
+      3 POST/register.html

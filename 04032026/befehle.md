@@ -10,3 +10,12 @@ awk '$7 != 200 { print > "error_log.txt" }' access_log.txt
 
 ## Befehle zum Erstellen von success_log.txt Datei
 awk '$7 == 200 { print > "success_log.txt" }' access_log.txt
+
+
+## Befehle zum Ermitteln von meist aufgerufenen Funktionen mit Status 200
+      
+awk '$7 == 200 { print $5 }' access_log.txt | sort | uniq -c | sort -rn | 'sed s/"//g' > top_function_called.txt 
+
+
+## Befhele zum Hinzufügen von Datum und Anzahl von fehlgeschlagenen Requests
+echo -e "############################################################################\n$(date +'%d/%m/%Y %H:%M:%S') \nNumber of failure:  $(wc -l < error_log_backup.txt)" >> error_log.txt 
