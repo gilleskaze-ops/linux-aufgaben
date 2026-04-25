@@ -1,0 +1,12 @@
+services:
+  web:
+    image: dci-webapp:v1
+    container_name: compose-web
+    ports:
+      - "8090:80"
+    restart: always
+
+  cache:
+    image: redis:alpine
+    container_name: compose-redis
+    restart: always
