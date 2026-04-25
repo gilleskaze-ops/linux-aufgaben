@@ -1,0 +1,6 @@
+Hostname: cloud-web-01
+IP: 10.0.0.3
+OS: Ubuntu 24.04 LTS
+Region: eu-central-1
+Umgebung: Produktion
+Ansprechpartner: dci-student
