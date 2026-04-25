@@ -3,4 +3,5 @@
 - [] Speicherplatz kontrollieren
 - [] Backup-Status prüfen
 - [] Laufende Dienste kontrollieren
+- [] CPU-Last prüfen
 
