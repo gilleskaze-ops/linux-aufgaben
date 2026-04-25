@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "================================"
+echo "  Admin Toolbox - System Check  "
+echo "================================"
+echo "Hostname    : $(hostname)"
+echo "Datum       : $(date)"
+echo "OS Info     : $(cat /etc/os-release | grep PRETTY_NAME | cut -d'"' -f2)"
+echo "--------------------------------"
+cat /etc/motd.txt 2>/dev/null || echo "Kein MOTD gefunden"
+echo "================================"
