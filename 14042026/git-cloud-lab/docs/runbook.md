@@ -4,3 +4,4 @@
 3. Staging-Deployment
 4. Monitoring prüfen
 5. Production-Deployment
+6. Monitring-Alerts verifizieren
