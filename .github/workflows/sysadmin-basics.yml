@@ -1,0 +1,90 @@
+name: SysAdmin Basics Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+env:
+  APP_NAME: "cloud-infra-tool"
+  REGION: "eu-central-1"
+
+jobs:
+  sysadmin-check:
+    runs-on: ubuntu-latest
+    env:
+      TARGET_ENV: "staging"
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: System-Informationen anzeigen
+        run: |
+          echo "=== System Info ==="
+          date
+          uname -a
+          pwd
+          ls -la
+
+      - name: Report-Verzeichnis erstellen
+        run: mkdir -p reports
+
+      - name: System-Report erstellen
+        run: |
+          echo "=== System Report ===" > reports/system-report.txt
+          echo "Datum: $(date)" >> reports/system-report.txt
+          echo "Runner: $RUNNER_NAME" >> reports/system-report.txt
+          echo "Verzeichnis: $(pwd)" >> reports/system-report.txt
+          echo "Inhalt:" >> reports/system-report.txt
+          ls -la >> reports/system-report.txt
+
+      - name: Runtime-Info mit Variablen erstellen
+        env:
+          STEP_VAR: "nur-fuer-diesen-step"
+        run: |
+          echo "=== Runtime Info ===" > reports/runtime-info.txt
+          echo "App: $APP_NAME" >> reports/runtime-info.txt
+          echo "Region: $REGION" >> reports/runtime-info.txt
+          echo "Zielumgebung: $TARGET_ENV" >> reports/runtime-info.txt
+          echo "Step-Variable: $STEP_VAR" >> reports/runtime-info.txt
+          echo "---"
+          echo "Simuliertes Zielsystem: $TARGET_ENV in $REGION"
+          echo "Anwendung: $APP_NAME"
+
+      - name: Umgebungskonfiguration laden
+        run: |
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            ENV_FILE="config/prod.env"
+            echo "Umgebung: PRODUKTION"
+          else
+            ENV_FILE="config/dev.env"
+            echo "Umgebung: ENTWICKLUNG"
+          fi
+          echo "Konfigurationsdatei: $ENV_FILE"
+          if [ -f "$ENV_FILE" ]; then
+            cat "$ENV_FILE"
+          else
+            echo "Konfigurationsdatei nicht gefunden: $ENV_FILE"
+          fi
+
+      - name: Secrets prüfen
+        env:
+          API_TOKEN: ${{ secrets.CLOUD_API_TOKEN }}
+          SSH_HOST: ${{ secrets.SSH_TARGET }}
+        run: |
+          if [ -n "$API_TOKEN" ]; then
+            echo "CLOUD_API_TOKEN: vorhanden ✅"
+          else
+            echo "CLOUD_API_TOKEN: fehlt ⚠️"
+          fi
+          if [ -n "$SSH_HOST" ]; then
+            echo "SSH_TARGET: vorhanden ✅"
+          else
+            echo "SSH_TARGET: fehlt ⚠️"
+          fi
+
+      - name: Reports als Artefakt hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-reports
+          path: reports/
